@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEHA KOLLIPARA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+</head> 
+<body>
+    <header>
+        <a href="#" class="logo"><img src="port.jpg" alt="NEHAKOLLIPARA"></a>
+    
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#exp">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Hello, I'm</h3>
+            <h1>NEHA</h1>
+            <h5>Web Developer, Java Programmer</h5>
+            <p>I'm a developer based in India.<br>I'm very passionate and dedicated to my work.</p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/neha-kollipara-a37103266" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/NEHAKOLLIPARA" target="_blank"><i class="bx bxl-github"></i></a>
+            </div>
+            <a href="#about" class="btn">About me</a>
+        </div>
+        <div class="home-img">
+            <img src="neha.jpg" alt="My pic">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-text">
+            <h3>Career Objective</h3><br/>
+            <p>Hi! I'm Neha,third year student pursuing Bachelor of technology in Computer science @Anurag University I'm interested in Web Development, Full-Stack Java Development.<br/>
+                Looking for an entry-level position as a Software Engineer in a dynamic firm that values my analytical and technical skills and provides scope for updating my knowledge. <br>I seek a company that will help me contribute to its development while concurrently aiding to my existing skills.</p><br/>
+        </div>
+        <div class="skills">
+            <h3>My Skills</h3><br/>
+            <li><h3>C</h3><span class="bar"><span class="c"></span></li>
+            <li><h3>JAVA</h3><span class="bar"><span class="java"></span></li>
+            <li><h3>PYTHON</h3><span class="bar"><span class="python"></span></li>
+            <li><h3>HTML</h3><span class="bar"><span class="html"></span></li>
+            <li><h3>CSS</h3><span class="bar"><span class="css"></span></li>
+            <li><h3>JAVASCRIPT</h3><span class="bar"><span class="js"></span></li>
+    
+        </div>
+    </section>
+    <main class="row">
+        <section class="col">
+            <h3>Education</h3><br/>
+            <div class="contents">
+                <div class="box">
+                    <h4>2021 - 2025</h4>
+                    <h3>Anurag University, Hyderabad</h3>
+                    <p>BTech- Computer Science, CGPA:8.55</p>
+                </div>
+                <div class="box">
+                    <h4>2019</h4>
+                    <h3>Bhashyam Public School, Hyderabad</h3>
+                    <p>SSC, CGPA:10.0</p>
+                </div>
+                <div class="box">
+                    <h4>2019-2021</h4>
+                    <h3>Narayana Junior College</h3>
+                    <p>84%</p>
+                </div>
+            </div>
+        </section>
+        <section class="col" id="exp">
+            <h3>Experience/Training</h3><br/>
+            <div class="contents">
+            <div class="box">
+                <h4>15 July 2023-15 August 2023</h4>
+                <h3>Web Development Intern, Oasis InfoByte</h5>
+                <p>Made a landing page,portfolio and temprature convertor using HTML, CSS, JavaScript.</p>
+            </div>
+            </div>
+        </section>
+    </main>    
+        <div class="cert">
+            <h3>Certificates</h3><br/>
+            <ul>
+                <li>ENTERPRISE DATASCIENCE IN PRACTICE IBM</li>
+                <li>C FOR EVERYONE:PROGRAMMING FUNDAMENTALS</li>
+                <li>CYBERSECURITY ESSENTIALS(IBM-SKILLSBUILD)</li>
+                <li>IT ESSENTIALS (CISCO)</li>
+                <li>DATABASE AND SQL (INFOSYS SPRINGBOARD)</li>
+                <li>DATA STRUCTURES (INFOSYS SPRINGBOARD)</li>
+            </ul><br/>
+            <a href="https://www.credly.com/users/neha-kollipara.df957713" class="btn" target="_blank">View Badges</a>
+        </div>
+    </section>
+    <div class="contact" id="contact"><br/>
+        <b>CONTACT ME:</b><br><br>
+        Ph No.:+91 9347257675<br>
+        Mail:<a href="nehakollipara2003@gmail.com">Click to send mail</a><br><br>
+        <p>Made with love by neha:)</p><br/>
+        <div class="icons">
+            <ul>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const header=document.querySelector("header");
+        window.addEventListener("scroll",function(){
+            header.classList.toggle("sticky",window.scrollY >0)
+        });
+    </script>
+</body>
+</html>
